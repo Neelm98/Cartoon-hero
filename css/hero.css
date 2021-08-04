@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+		font-family: Helvetica, Arial, sans-serif;
+			font-size: 20px;
+			line-height: 30px;
+
+
+}
+
+header{
+	background-color: yellowgreen;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1,h2 {
+	font-family: 'STIX Two Text', serif;
+}
+
+header h1{
+	color: white;
+	font-size: 50px;
+}
+
+header img{
+	border-radius: 1000px;
+	width: 500px;
+    border: 50px solid darkblue;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 35px;
+	color: yellowgreen;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: lightblue;
+
+}
+a:hover{
+	color: yellowgreen;
+	background-color: black;
+}
+footer{
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: gray;
+	font-style: italic;
+	margin-top: 0;
+}
